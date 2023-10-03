@@ -15,6 +15,7 @@ import 'package:spectator/user_screens/solved_cases_F.dart';
 import 'package:spectator/widgets/add_complaint_button.dart';
 import 'package:spectator/widgets/page_heading.dart';
 //import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
+import '../keys/facepp_keys.dart';
 import '../models/report_model.dart';
 import 'package:http/http.dart';
 import 'package:uuid/uuid.dart';
@@ -673,8 +674,6 @@ class _PersonInformationScreenState extends State<PersonInformationScreen> {
 
 
   Future<void> _handleSearch() async {
-    const apiKey = 'UwhY1BtTESn90qRgrIEqIT59XAu_ojiA';
-    const apiSecret = 'jvK6nqz5bIh_oLd-ivhkvXBPTeAbm8wk';
     final imageUrl1 = widget.report.personImage;
 
     for (final imageUrl2 in _personImageUrls) {
