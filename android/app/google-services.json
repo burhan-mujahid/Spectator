@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "900905024757",
+    "project_id": "spectator-5d19b",
+    "storage_bucket": "spectator-5d19b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900905024757:android:dd7399e4a4e55d004c19bc",
+        "android_client_info": {
+          "package_name": "com.spectator.spectator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900905024757-1ilctp99ves920ersad7pap4v7ms33d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-ogu5h3Yv9oB3xF6wNuPshnFVN6PAyRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900905024757-1ilctp99ves920ersad7pap4v7ms33d6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
